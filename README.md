@@ -5,9 +5,9 @@ A C# console-based simulation of an online shopping system that allows users to 
 
 ---
 
-## 📌 Features
+##  Features
 
-### ✅ Core Requirements
+###  Core Requirements
 - **Product Management** – Add, view, and search products (by ID or Name)
 - **Shopping Cart** – Add items, view cart, checkout
 - **Menu System** – Loop-driven console interface with `switch` statements
@@ -19,7 +19,7 @@ A C# console-based simulation of an online shopping system that allows users to 
 - **Exception Handling** – Handles invalid input, missing products, insufficient stock
 - **String Interpolation** – Clean, readable output (`$"Product: {name}"`)
 
-### 🌟 Bonus Features
+###  Bonus Features
 - **File Handling** – Save/load products to/from a text file (`products.txt`) using `StreamWriter` / `StreamReader`
 - **Discount System** – Apply percentage discount on total price
 - **Order Stack** – Track completed orders using `Stack<Order>`
@@ -27,7 +27,7 @@ A C# console-based simulation of an online shopping system that allows users to 
 
 ---
 
-## 🧱 Project Structure
+##  Project Structure
 SimpleEcommerce/
 ├── Program.cs # Entry point & menu loop
 ├── Models/
@@ -39,20 +39,3 @@ SimpleEcommerce/
 └── Utils/
 └── InputValidator.cs # Regex validation
 
-
-
----
-
-## 🚀 How to Run
-
-### Prerequisites
-- [.NET SDK](https://dotnet.microsoft.com/en-us/download) (6.0 or later)
-- Any C# IDE or text editor (Visual Studio, VS Code, Rider, etc.)
-
-### Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/simple-ecommerce-console.git
-   cd simple-ecommerce-console
-2  dotnet build
-dotnet run
