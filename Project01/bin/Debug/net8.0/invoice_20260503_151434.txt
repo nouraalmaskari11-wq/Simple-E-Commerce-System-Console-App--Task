@@ -1,0 +1,13 @@
+INVOICE
+========
+Date: 5/3/2026 3:14:34 PM
+
+Products:
+
+Laptop x 4 = 10000
+
+Subtotal: 10000
+Discount: -1000
+Total: 9000
+
+Thank you for shopping with us
